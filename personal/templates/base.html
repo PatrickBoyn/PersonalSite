@@ -9,6 +9,17 @@
     <title>Patrick Boynton</title>
 </head>
 <body>
-    <h1>Test</h1>
+    <h1>Patrick Boynton</h1>
+    <ul>
+        <li><a href="{% url 'index' %}">Home</a></li>
+        <li><a href="{% url 'about' %}">About Me</a></li>
+        <li><a href="{% url 'portfolio' %}">Portfolio</a></li>
+        <li><a href="{% url 'contact' %}">Contact Me</a></li>
+    </ul>
+    
+    {% block body_block %}
+    
+    {% endblock %}
+
 </body>
 </html>
