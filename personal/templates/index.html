@@ -11,10 +11,10 @@
 <body>
     <h1>Patrick Boynton</h1>
     <ul>
-        <li>Home</li>
-        <li>About Me</li>
-        <li>Portfolio</li>
-        <li>Contact Me</li>
+        <li><a href="{% url 'index' %}">Home</a></li>
+        <li><a href="{% url 'about' %}">About Me</a></li>
+        <li><a href="{% url 'portfolio' %}">Portfolio</a></li>
+        <li><a href="{% url 'contact' %}">Contact Me</a></li>
     </ul>
     <p>This is a website designed by me as a place to show off my portfolio. </p>
 </body>
