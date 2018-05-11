@@ -17,11 +17,13 @@ from django.contrib import admin
 from django.urls import path
 from website import views
 
+app_name = 'personal'
+
 urlpatterns = [
-    path('', views.index),
-    path('index/', views.index),
-    path('portfolio/', views.portfolio),
-    path('contact', views.contact),
-    path('about/', views.about),
+    path('', views.index, name='index'),
+    path('index/', views.index, name='index'),
+    path('portfolio/', views.portfolio, name='portfolio'),
+    path('contact', views.contact, name='contact'),
+    path('about/', views.about, name='about'),
     path('admin/', admin.site.urls),
 ]
