@@ -4,6 +4,10 @@ body{
 h1{
     text-align:center;
 }
+.top{
+    border-bottom:3px solid black;
+    padding-bottom:2%;
+}
 ul{
     list-style:none;
     display:flex;
@@ -17,6 +21,10 @@ a{
 }
 a:visited{
     color:black;
+}
+a:hover{
+    background:black;
+    color:white;
 }
 p{
     text-align:center;
