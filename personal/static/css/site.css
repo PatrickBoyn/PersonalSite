@@ -1,6 +1,6 @@
 body{
     margin:0;
-    animation: onload 2s linear 1;
+    animation: onload 2s ease-in 1;
 }
 h1{
     text-align:center;
