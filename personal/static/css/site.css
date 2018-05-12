@@ -29,6 +29,9 @@ a:hover{
 }
 p{
     text-align:center;
+    width:65%;
+    margin-left:18%;
+    border:2px solid blue;
 }
 img{
     padding-left:2%;
