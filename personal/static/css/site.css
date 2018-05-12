@@ -12,6 +12,12 @@ ul{
 li{
     margin-left:2%;
 }
+a{
+    text-decoration:none;
+}
+a:visited{
+    color:black;
+}
 p{
     text-align:center;
 }
