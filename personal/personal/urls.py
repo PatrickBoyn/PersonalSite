@@ -20,10 +20,10 @@ from website import views
 app_name = 'personal'
 
 urlpatterns = [
-    path('', views.index, name='index'),
-    path('index/', views.index, name='index'),
-    path('portfolio/', views.portfolio, name='portfolio'),
-    path('contact', views.contact, name='contact'),
-    path('about/', views.about, name='about'),
+    path('', views.IndexView.as_view(), name='index'),
+    path('index/', views.IndexView.as_view(), name='index'),
+    path('portfolio/', views.PortfolioView.as_view(), name='portfolio'),
+    path('contact', views.ContactView.as_view(), name='contact'),
+    path('about/', views.AboutView.as_view(), name='about'),
     path('admin/', admin.site.urls),
 ]
