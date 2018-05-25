@@ -6,6 +6,9 @@ h1{
     text-align:center;
     margin-bottom:0;
 }
+h2{
+    text-align:center;
+}
 .top{
     border-bottom:3px solid black;
     padding-bottom:2%;
