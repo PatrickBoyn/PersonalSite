@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView
+from django import forms
 
 # Create your views here.
 
@@ -13,7 +14,6 @@ class PortfolioView(TemplateView):
 
 class ContactView(TemplateView):
     template_name = 'contact.html'
-
 
 class AboutView(TemplateView):
     template_name = 'about.html'
