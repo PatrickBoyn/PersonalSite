@@ -24,7 +24,7 @@ urlpatterns = [
     path('index/', views.IndexView.as_view(), name='index'),
     path('portfolio/', views.PortfolioView.as_view(), name='portfolio'),
     path('contact', views.ContactView.as_view(), name='contact'),
-    path('contact/', views.IndexView.as_view(), name='success'),
+    path('success/', views.SuccessView.as_view(), name='success'),
     path('about/', views.AboutView.as_view(), name='about'),
     path('admin/', admin.site.urls),
 ]
