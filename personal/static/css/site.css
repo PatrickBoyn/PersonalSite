@@ -26,6 +26,11 @@ li{
     margin-left:3%;
     height:100%;
 }
+input[type="submit"]{
+    display:inline;
+    text-align:center;
+    color:red;
+}
 a{
     text-decoration:none;
     padding:5px;
