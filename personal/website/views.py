@@ -16,7 +16,7 @@ class PortfolioView(TemplateView):
 class ContactView(FormView):
     template_name = 'contact.html'
     form_class = ContactForm
-    success_url = 'index.html'
+    success_url = '/contact/'
 
     def form_valid(self, form):
         form.send_email()
