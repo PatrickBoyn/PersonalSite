@@ -6,8 +6,9 @@
 
     {% block body_block %}
     <h1>Fill out the form to contact me</h1>
-    <form method="POST" action="index.html">
+    <form method="POST" action="contact.html" name="contact">
         {{ form.as_p }}
+    <input type="submit" value="submit" >
     </form>
-        <input type="submit" value="submit">
+
     {% endblock %}
