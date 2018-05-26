@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView, FormView
 from website.forms import ContactForm
+from django.urls import reverse
 from django import forms
 
 # Create your views here.
@@ -16,7 +17,8 @@ class PortfolioView(TemplateView):
 class ContactView(FormView):
     template_name = 'contact.html'
     form_class = ContactForm
-    success_url = '/contact/'
+    success_message = "You've been successful!"
+    success_url = 'contact/'
 
     def form_valid(self, form):
         form.send_email()
