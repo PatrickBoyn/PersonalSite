@@ -24,5 +24,10 @@ class ContactView(FormView):
         form.send_email()
         return super().form_valid(form)
 
+
 class AboutView(TemplateView):
     template_name = 'about.html'
+
+
+class SuccessView(TemplateView):
+    template_name = 'success.html'
