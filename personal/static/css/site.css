@@ -18,17 +18,19 @@ ul{
     display:flex;
     padding-left:40%;
     padding-top:.6%;
-    padding-bottom:.6%;
+    padding-bottom:.4%;
     margin:0;
     border-bottom:3px solid black;
 }
+form{
+    text-align:center;
+}
 li{
     margin-left:3%;
+    padding:0;
     height:100%;
 }
 input[type="submit"]{
-    display:inline;
-    text-align:center;
     color:red;
 }
 a{
