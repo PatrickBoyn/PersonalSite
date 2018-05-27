@@ -4,8 +4,8 @@ from website.forms import ContactForm
 from django.urls import reverse
 from django import forms
 
-# Create your views here.
 
+# Create your views here.
 class IndexView(TemplateView):
     template_name = 'index.html'
 
@@ -18,7 +18,7 @@ class ContactView(FormView):
     template_name = 'contact.html'
     form_class = ContactForm
     success_message = "You've been successful!"
-    success_url = 'success/'
+    success_url = 'contact/success/'
 
     def form_valid(self, form):
         form.send_email()
