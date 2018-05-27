@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 from website import views
 
-app_name = 'personal'
+
 
 urlpatterns = [
     path('', views.IndexView.as_view(), name='index'),
@@ -25,6 +25,6 @@ urlpatterns = [
     path('about/', views.AboutView.as_view(), name='about'),
     path('portfolio/', views.PortfolioView.as_view(), name='portfolio'),
     path('contact', views.ContactView.as_view(), name='contact'),
-    path('contact/success', include('website.urls')),
+    path('', include('website.urls')),
     path('admin/', admin.site.urls),
 ]
