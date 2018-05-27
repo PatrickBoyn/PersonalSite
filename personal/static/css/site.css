@@ -34,7 +34,9 @@ li{
     height:100%;
 }
 input[type="submit"]{
-    color:red;
+    background:black;
+    color:white;
+    outline:none;
 }
 a{
     text-decoration:none;
