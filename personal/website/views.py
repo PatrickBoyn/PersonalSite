@@ -18,7 +18,7 @@ class ContactView(FormView):
     template_name = 'contact.html'
     form_class = ContactForm
     success_message = "You've been successful!"
-    success_url = 'success/'
+    # success_url = 'success/'
 
     def form_valid(self, form):
         form.send_email()
