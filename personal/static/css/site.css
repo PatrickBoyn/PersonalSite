@@ -27,6 +27,8 @@ ul{
     padding-bottom:.2%;
     margin:0;
     border-bottom:3px solid black;
+    align-items:center;
+    justify-content:center;
 }
 form{
     text-align:center;
