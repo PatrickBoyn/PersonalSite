@@ -2,8 +2,10 @@ html{
     font-family:Arial;
 }
 body{
+    background:#e5bb8e;
     margin:0;
     animation: onload 2s ease-in 1;
+    color:#095cc1;
 }
 h1{
     text-align:center;
@@ -16,17 +18,17 @@ nav{
     text-align:center;
 }
 .top{
-    border-bottom:3px solid black;
+    border-bottom:3px solid #095cc1;
     padding-bottom:2%;
 }
 ul{
     list-style:none;
     display:flex;
-    /*padding-left:37.5%;*/
     padding-top:.2%;
     padding-bottom:.2%;
     margin:0;
-    border-bottom:3px solid black;
+    background:#b21100;
+    border-bottom:3px solid #095cc1;
     align-items:center;
     justify-content:center;
 }
@@ -39,7 +41,7 @@ li{
     height:100%;
 }
 input[type="submit"]{
-    background:black;
+    background:#095cc1;
     color:white;
     outline:none;
 }
@@ -48,10 +50,10 @@ a{
     padding:5px;
 }
 a:visited{
-    color:black;
+    color:white;
 }
 a:hover{
-    background:black;
+    background:#095cc1;
     color:white;
 }
 p{
