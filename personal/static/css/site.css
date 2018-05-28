@@ -12,6 +12,9 @@ h1{
 h2{
     text-align:center;
 }
+nav{
+    text-align:center;
+}
 .top{
     border-bottom:3px solid black;
     padding-bottom:2%;
@@ -19,7 +22,7 @@ h2{
 ul{
     list-style:none;
     display:flex;
-    padding-left:37.5%;
+    /*padding-left:37.5%;*/
     padding-top:.2%;
     padding-bottom:.2%;
     margin:0;
