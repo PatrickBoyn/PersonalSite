@@ -32,6 +32,10 @@ ul{
     align-items:center;
     justify-content:center;
 }
+table{
+    padding-left:30%;
+    text-align:center;
+}
 thead{
     background:#b21100;
     color:white;
