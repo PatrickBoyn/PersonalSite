@@ -32,6 +32,13 @@ ul{
     align-items:center;
     justify-content:center;
 }
+thead{
+    background:#b21100;
+    color:white;
+}
+tbody{
+    color:#4DEEFF;
+}
 form{
     text-align:center;
 }
